@@ -27,6 +27,10 @@ span{
   font-size: 16px;
 }
 
+#container{
+  width: 100%;
+}
+
 .improv{
   background-color: rgb(252, 242, 159);
   position: relative;
@@ -68,7 +72,27 @@ span{
   margin: auto;
 }
 
-@media only screen and (min-width: 375px) and (max-width: 650px){
+@media only screen and (min-width: 240px) and (max-width: 339px){
+  .box{
+    margin: 60px auto;
+    padding: 30px 20px 60px 20px;
+    width: 90%;
+  }
+
+  .child2{
+    padding: 20px 20px 30px 20px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .improv{
+    top: 55px;
+    width:60%;
+    left: -10px;
+  }
+
+}
+@media only screen and (min-width: 340px) and (max-width: 650px){
   .box{
     margin: 60px auto;
     padding: 30px 40px 60px 40px;
