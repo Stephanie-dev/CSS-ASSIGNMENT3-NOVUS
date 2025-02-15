@@ -86,10 +86,14 @@ span{
   }
 
   .improv{
-    top: 55px;
-    width:60%;
+    top: 40px;
+    width:65%;
     left: -10px;
   }
+
+  .improv p{
+    padding: 5px 2px 5px 5px;
+  }  
 
 }
 @media only screen and (min-width: 340px) and (max-width: 650px){
@@ -128,7 +132,7 @@ span{
 
   .improv{
     top: 55px;
-    width:60%;
+    width: 60%;
     left: -10px;
   }
 }
