@@ -113,6 +113,25 @@ span{
 
 }
 
+@media only screen and (min-width: 345px) and (max-width: 430px){
+  .box{
+    margin: 60px auto;
+    padding: 30px 25px 60px 25px;
+    width: 90%;
+  }
+
+  .child2{
+    padding: 20px 20px 30px 20px;
+    width: 100%;
+    margin: auto;
+  }
+
+  .improv{
+    top: 55px;
+    width:60%;
+    left: -10px;
+  }
+}
 @media only screen and (min-width: 651px) and (max-width: 1190px){
   .box{
     margin: 60px auto;
